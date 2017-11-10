@@ -1,9 +1,6 @@
-#require "rubygems"
-#require "sinatra"
+$:.unshift(File.expand_path("../lib", File.dirname(__FILE__)))
 
-#require './server.rb'
-require "./config/boot.rb"
+require "./boot.rb"
 
-#run Sinatra::Application
 
-run BookList
+run BaseApi

@@ -2,7 +2,6 @@ require 'sinatra'
 require 'mongoid'
 require "sinatra/namespace"
 
-
 Mongoid.load! "mongoid.config"
 
 class Book
