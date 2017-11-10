@@ -5,4 +5,5 @@ class BookList < Sinatra::Application
     "Its ok"
   end
 
+  use Controllers
 end
